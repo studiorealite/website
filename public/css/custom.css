@@ -1,0 +1,9 @@
+/* your styles go here */
+
+a.peecho-btn-okay .peecho-print-button .peecho-btn .peecho-btn-tooltip {
+    border-color: black;
+    cursor: pointer;
+    color: black;
+    text-shadow: grey;
+    background: white;
+}
