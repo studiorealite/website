@@ -1,6 +1,7 @@
 ---
 label: project
 hide_body: false
+display_field: project
 fields:
 - type: boolean
   name: showonlyimage
