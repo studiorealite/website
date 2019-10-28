@@ -16,14 +16,13 @@ Photography book
 
 Abstract art photography book by Guillaume Bouzige
 
-<a title="Peecho" href="https://www.peecho.com/" class="peecho-print-button"
-data-filetype="pdf" data-width="148.0" data-height="210.0" 
-data-pages="40" data-publication="579116" data-text="ORDER € 21.0" data-noprice="true" data-currency="EUR" data-locale="en_EN">Print</a>
+<button
+      class="snipcart-add-item buy-button"
+      data-item-id="{{ .id }}"
+      data-item-name="{{ .name }}"
+      data-item-price="{{ .price }}"
+      data-item-url="{{ .product_url }}"
+      data-item-description="{{ .description }}">
+      Add to cart
+</button>
 
-<script type="text/javascript">(function() {
-var p=document.createElement("script");p.type="text/javascript";p.async=true;
-var h=("https:"==document.location.protocol?"https://":"http://");
-p.src=h+"d3aln0nj58oevo.cloudfront.net/button/script/156516779250527172.js";
-var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(p,s);
-}).call(this);
-</script>

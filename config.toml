@@ -1,4 +1,4 @@
-baseurl = "http://127.0.0.1:8887"
+baseurl = "http://guizcarl.freeboxos.fr:8887"
 title = "Studio réalité"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
@@ -55,9 +55,9 @@ googleAnalytics = ""
   url = "contact/"
 
   [params.social]
-  facebook      = "https://www.facebook.com/Studio-Réalité-102207291198905"
+  #facebook      = "https://www.facebook.com/Studio-Réalité-102207291198905"
   email         = "hello@studioréalité.com"
-  #instagram     = "full profile url in instagram"
+  instagram     = "full profile url in instagram"
 
   [params.carousel]
     enable = true
