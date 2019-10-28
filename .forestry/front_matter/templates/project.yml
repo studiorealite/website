@@ -1,0 +1,25 @@
+---
+label: project
+hide_body: false
+fields:
+- type: boolean
+  name: showonlyimage
+  label: showonlyimage
+- type: file
+  name: image
+  label: image
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: carousel
+  label: carousel
+- type: text
+  name: project
+  label: project
+- type: number
+  name: weight
+  label: weight
