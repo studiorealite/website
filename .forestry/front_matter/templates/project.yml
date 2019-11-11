@@ -24,3 +24,5 @@ fields:
 - type: number
   name: weight
   label: weight
+pages:
+- content/portfolio/rhomer-lisht.md
