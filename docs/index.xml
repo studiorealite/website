@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolios on Studio réalité</title>
-    <link>http://guizcarl.freeboxos.fr:8887/portfolio/</link>
-    <description>Recent content in Portfolios on Studio réalité</description>
+    <title>Studio réalité</title>
+    <link>http://guizcarl.freeboxos.fr:8887/</link>
+    <description>Recent content on Studio réalité</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Nov 2019 23:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Nov 2016 19:44:32 +0530</lastBuildDate>
     
-	<atom:link href="http://guizcarl.freeboxos.fr:8887/portfolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://guizcarl.freeboxos.fr:8887/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Rhomer light</title>
-      <link>http://guizcarl.freeboxos.fr:8887/portfolio/rhomer-lisht/</link>
-      <pubDate>Sun, 10 Nov 2019 23:00:00 +0000</pubDate>
-      
-      <guid>http://guizcarl.freeboxos.fr:8887/portfolio/rhomer-lisht/</guid>
-      <description>Rohmer&amp;rsquo;s light is a oil painting on pvc sheet with a light background.
-Painted by artist Jiab Prachakul</description>
-    </item>
     
     <item>
       <title>Pas terne</title>
