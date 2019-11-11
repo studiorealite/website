@@ -1,7 +1,6 @@
 +++
 carousel = true
 date = 2019-11-10T23:00:00Z
-draft = true
 image = "/img/rhomer_light_2.jpg"
 project = "ROHMERS_LIGHT"
 showonlyimage = true
