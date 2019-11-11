@@ -1,10 +1,10 @@
 +++
-carousel = true
+carousel = false
 date = 2019-11-10T23:00:00Z
 image = "/img/rhomer_light_2.jpg"
 project = "ROHMERS_LIGHT"
 showonlyimage = true
-title = "Rhomer lisht"
+title = "Rhomer light"
 weight = 1
 
 +++
