@@ -8,6 +8,10 @@ title = "Rhomer light"
 weight = 1
 
 +++
+Oil light painting by Jiab Prachakul
+
+<!--more-->
+
 Rohmer's light is a oil painting on pvc sheet with a light background.
 
 Painted by artist Jiab Prachakul
