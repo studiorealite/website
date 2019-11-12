@@ -10,7 +10,7 @@ jobs:
     environment:
       HUGO_BUILD_DIR: ~/hugo/public
     steps:
-      - run: apk update && apk add git
+      - run: apt update && apt add git
       - checkout
       - run: git submodule sync && git submodule update --init
       - run: rm -fr $HUGO_BUILD_DIR && git worktree add -B gh-pages $HUGO_BUILD_DIR origin/gh-pages
