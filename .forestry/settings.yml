@@ -13,7 +13,7 @@ sections:
   templates:
   - carousel-data
 - type: directory
-  path: img/portfolio
+  path: static/img/portfolio
   label: Projects Images
   create: all
   match: "**/*"
