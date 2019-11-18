@@ -4,7 +4,7 @@ date = 2016-11-05T12:55:22Z
 image = "img/portfolio/cover.jpg"
 project = "pasterne"
 showonlyimage = true
-summary = "Photography book"
+Summary = "Photography book"
 title = "Pas terne"
 weight = "2"
 
