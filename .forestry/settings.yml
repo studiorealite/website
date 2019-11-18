@@ -9,7 +9,7 @@ sections:
   label: Carousel data
   create: all
   match: "**/*"
-  new_doc_ext: ".yaml"
+  new_doc_ext: yaml
   templates:
   - carousel-data
 - type: directory
