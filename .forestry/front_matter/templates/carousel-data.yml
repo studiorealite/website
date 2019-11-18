@@ -12,5 +12,5 @@ fields:
   name: project
   label: project
 pages:
-- data/carousel/ROHMERSLIGHT_picture1.yaml
 - data/carousel/ROHMERSLIGHT_cover.yaml
+- data/carousel/ROHMERSLIGHT_picture1.yaml
