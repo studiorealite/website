@@ -8,10 +8,7 @@ fields:
 - type: file
   name: image
   label: image
-- type: text
-  name: project
-  label: project
-- name: projects
+- name: project
   type: select
   default: []
   config:
@@ -22,7 +19,7 @@ fields:
       section: portfolio
       file: 
       path: 
-  label: projects
+  label: project
 pages:
 - data/carousel/pasterne_cover1.yaml
 - data/carousel/ROHMERSLIGHT_cover.yaml
