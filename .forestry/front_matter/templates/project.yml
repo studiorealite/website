@@ -3,10 +3,17 @@ label: Project
 hide_body: false
 display_field: project
 fields:
+- type: text
+  name: title
+  label: Title of the project
+- type: text
+  name: project
+  label: Project Unique Code
+  description: This is an internal identifier of the project. It shall be unique
 - type: boolean
   name: showonlyimage
   label: showonlyimage
-  description: show an image without text summary on main page
+  description: if activated the project will appear on main page without text summary
 - type: file
   name: image
   label: image
@@ -16,15 +23,9 @@ fields:
   config:
     required: true
   default: now
-- type: text
-  name: title
-  label: title
 - type: boolean
   name: carousel
   label: carousel
-- type: text
-  name: project
-  label: project
 - type: number
   name: weight
   label: Number of project
