@@ -9,13 +9,13 @@ sections:
   label: Carousel data
   create: all
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
 - type: directory
-  path: static/img
-  label: Images
+  path: static/img/portfolio
+  label: Projects Images
   create: all
   match: "**/*"
-  new_doc_ext: ".jpeg"
+  new_doc_ext: jpg
 - type: directory
   path: content/portfolio
   label: Portfolio
