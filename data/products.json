@@ -3,8 +3,8 @@
       "id": "PAS_TERNE",
       "name": "Pas terne",
       "price": 19.98,
-      "image": "/img/portfolio/pasterne/cover.jpg",
-      "description": "Want to step up your cheese game? Try our mild, yellow Gouda Wheel. This cheese is made in the Netherlands with raw cow milk.",
-      "product_url": "http://snipcart-hugo-forestery.netlify.com"
+      "image": "img/portfolio/pasterne/cover.jpg",
+      "description": "Art photography book. Abstract art photography book by Guillaume Bouzige.",
+      "product_url": "https://studiorealite.github.io/website/portfolio/pasterne/"
     }
   ]
