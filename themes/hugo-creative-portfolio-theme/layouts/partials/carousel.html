@@ -10,7 +10,7 @@
                 {{ range sort .Site.Data.carousel "weight" }}
                     {{ if (.project | eq $CurrentProject) }}
                     <div class="item">
-                        <img class="img-responsive" src="{{$url}}/{{.image}}" alt="{{$summary}}#{{$CurrentProject}}">
+                        <img class="img-responsive" src="{{$url}}/{{.image}}" alt="{{$summary}} #{{$CurrentProject}}">
                     </div>
                     {{ end }}
                 {{ end }}
