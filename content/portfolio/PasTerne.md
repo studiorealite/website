@@ -1,14 +1,13 @@
 +++
-showonlyimage = false
-draft = false
-image = "img/portfolio/pasterne/cover.jpg"
-date = "2016-11-05T18:25:22+05:30"
-title = "Pas terne"
 carousel = true
+date = 2016-11-05T12:55:22Z
+image = "img/portfolio/pasterne/cover.jpg"
 project = "pasterne"
-weight = 1
-+++
+showonlyimage = false
+title = "Pas terne"
+weight = "2"
 
++++
 Abstract photography book "Pas terne" by Guillaume Bouzige
 <!--more-->
 
@@ -25,4 +24,3 @@ Abstract art photography book by Guillaume Bouzige
       data-item-description="{{ .description }}">
       Add to cart
 </button>
-
