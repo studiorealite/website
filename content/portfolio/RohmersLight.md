@@ -4,6 +4,7 @@ date = 2016-11-05T14:11:01Z
 image = "img/portfolio/rhomer_light_2.jpg"
 project = "rohmerslight"
 showonlyimage = true
+summary = "Light painting"
 title = "Rohmer's light"
 weight = "1"
 
