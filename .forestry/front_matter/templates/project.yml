@@ -10,19 +10,26 @@ fields:
   name: project
   label: Project Unique Code
   description: This is an internal identifier of the project. It shall be unique
-- type: boolean
-  name: showonlyimage
-  label: showonlyimage
-  description: if activated the project will appear on main page without text summary
 - type: file
   name: image
   label: Main image for the project
   description: This image will appear on main page for the project.
 - type: boolean
+  name: showonlyimage
+  label: showonlyimage
+  description: if activated the project will appear on main page without text summary
+- type: boolean
   name: carousel
   label: Activate carousel
   description: Will active carousel. Needs Projects carousel data to work
   default: false
+- name: carouselimages
+  type: image_gallery
+  config: {}
+  showOnly:
+    field: carousel
+    value: true
+  label: Carousel images
 - type: number
   name: weight
   label: Number of project
@@ -43,10 +50,3 @@ fields:
   config:
     required: true
   default: now
-- name: carousel-img
-  type: image_gallery
-  config: {}
-  label: carousel-img
-  showOnly:
-    field: carousel
-    value: true
