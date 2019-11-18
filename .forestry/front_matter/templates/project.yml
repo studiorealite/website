@@ -16,16 +16,13 @@ fields:
   description: if activated the project will appear on main page without text summary
 - type: file
   name: image
-  label: image
-- type: datetime
-  name: date
-  label: date
-  config:
-    required: true
-  default: now
+  label: Main image for the project
+  description: This image will appear on main page for the project.
 - type: boolean
   name: carousel
-  label: carousel
+  label: Activate carousel
+  description: Will active carousel. Needs Projects carousel data to work
+  default: false
 - type: number
   name: weight
   label: Number of project
@@ -40,3 +37,9 @@ fields:
       format: markdown
   label: Description
   description: text that appear on main page over image
+- type: datetime
+  name: date
+  label: date
+  config:
+    required: true
+  default: now
