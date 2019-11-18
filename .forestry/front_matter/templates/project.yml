@@ -32,7 +32,7 @@ fields:
   label: Carousel images
 - type: number
   name: weight
-  label: Number of project
+  label: Position of project on main page
   description: this define the position it will appear on main page
 - name: Description
   type: textarea
