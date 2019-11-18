@@ -2,7 +2,7 @@
 carousel = true
 date = 2016-11-05T14:11:01Z
 image = "img/portfolio/business-card-26.jpg"
-project = "ROHMERS_LIGHT"
+project = "ROHMERSLIGHT"
 showonlyimage = true
 title = "Rohmer's light"
 weight = "1"
