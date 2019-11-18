@@ -11,6 +11,18 @@ fields:
 - type: text
   name: project
   label: project
+- name: projects
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: portfolio
+      file: 
+      path: 
+  label: projects
 pages:
 - data/carousel/pasterne_cover1.yaml
 - data/carousel/ROHMERSLIGHT_cover.yaml
