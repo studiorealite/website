@@ -1,3 +1,4 @@
-weight: 3
-image: "img/portfolio/page2.jpg"
-project: "pasterne"
+---
+weight: '4'
+image: img/portfolio/page2.jpg
+project: pasterne
