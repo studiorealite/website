@@ -1,0 +1,13 @@
+---
+label: Carousel Data
+hide_body: true
+fields:
+- type: number
+  name: weight
+  label: weight
+- type: file
+  name: image
+  label: image
+- type: text
+  name: project
+  label: project
