@@ -1,7 +1,7 @@
 +++
 carousel = true
 date = 2016-11-05T12:55:22Z
-image = "img/cover.jpg"
+image = "img/portfolio/cover.jpg"
 project = "pasterne"
 showonlyimage = true
 summary = "Photography book"
