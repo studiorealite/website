@@ -11,7 +11,7 @@
 <section>
         <div class="container">
             <div class="owl-carousel">
-                {{ range .Params "carousel-img" }}
+                {{ range .Params.carouselimages }}
                     <div class="item">
                         <img class="img-responsive" src="{{$url}}/{{.Content}}" alt="{{$summary}} #{{$CurrentProject}}">
                     </div>

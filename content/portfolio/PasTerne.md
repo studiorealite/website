@@ -2,7 +2,6 @@
 Description = "Photography book"
 Summary = "Photography book"
 carousel = true
-carousel-img = ["img/portfolio/open2.jpg", "img/portfolio/cover.jpg", "img/portfolio/open1.jpg", "img/portfolio/page2.jpg", "img/portfolio/page1.jpg", "img/portfolio/74612968_454499511866405_3245622896285974528_n.jpg"]
 carouselimages = ["img/portfolio/cover.jpg", "img/portfolio/page1.jpg", "img/portfolio/open2.jpg", "img/portfolio/open1.jpg", "img/portfolio/page2.jpg", "img/portfolio/74612968_454499511866405_3245622896285974528_n.jpg"]
 date = 2016-11-05T12:55:22Z
 image = "img/portfolio/cover.jpg"
