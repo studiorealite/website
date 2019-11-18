@@ -1,0 +1,21 @@
+/* your styles go here */
+
+#cartsvg {
+    width: 2vw;
+    height: auto;
+}
+
+.cartlogo {
+    position: absolute;
+    top: 1vh;
+    right: 1vw;
+    z-index: 9;
+}
+
+a.peecho-btn-okay .peecho-print-button .peecho-btn .peecho-btn-tooltip {
+    border-color: black;
+    cursor: pointer;
+    color: black;
+    text-shadow: grey;
+    background: white;
+}
