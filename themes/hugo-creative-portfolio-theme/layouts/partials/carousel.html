@@ -1,4 +1,8 @@
 {{ $CurrentProject := .Params.project }}
+{{ .Scratch.Set "CurrentProject" "portfolio/" }}
+{{ .Scratch.Add "CurrentProject" .Params.project }}
+{{ .Scratch.Add "CurrentProject" ".md" }}
+
 {{ $summary := .Params.summary }}
 {{ $url := .Site.BaseURL}}
 {{ if isset .Site.Params "carousel" }}
@@ -8,7 +12,7 @@
         <div class="container">
             <div class="owl-carousel">
                 {{ range sort .Site.Data.carousel "weight" }}
-                    {{ if (.project | eq $CurrentProject) }}
+                    {{ if (.project | eq .Scratch.Get "CurrentProject") }}
                     <div class="item">
                         <img class="img-responsive" src="{{$url}}/{{.image}}" alt="{{$summary}} #{{$CurrentProject}}">
                     </div>
