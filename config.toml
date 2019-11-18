@@ -1,4 +1,4 @@
-baseurl = "http://127.0.0.1:8887"
+baseurl = "https://studiorealite.github.io/website/"
 title = "Studio réalité"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
