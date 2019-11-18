@@ -1,7 +1,7 @@
 +++
 carousel = true
 date = 2016-11-05T14:11:01Z
-image = "img/rhomer_light_1.jpg"
+image = "img/portfolio/rhomer_light_2.jpg"
 project = "rohmerslight"
 showonlyimage = true
 title = "Rohmer's light"
