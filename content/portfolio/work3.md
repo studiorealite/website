@@ -1,5 +1,6 @@
 +++
 date = 2016-11-05T14:14:32Z
+draft = true
 image = "img/portfolio/gravity-paper.jpg"
 showonlyimage = false
 title = "Name of the work 3"
