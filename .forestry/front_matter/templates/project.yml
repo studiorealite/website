@@ -6,6 +6,7 @@ fields:
 - type: boolean
   name: showonlyimage
   label: showonlyimage
+  description: show an image without text summary on main page
 - type: file
   name: image
   label: image
@@ -26,7 +27,8 @@ fields:
   label: project
 - type: number
   name: weight
-  label: weight
+  label: Number of project
+  description: this define the position it will appear on main page
 - name: Description
   type: textarea
   default: ''
