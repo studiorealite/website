@@ -24,7 +24,7 @@ fields:
 - type: number
   name: weight
   label: weight
-- name: summary
+- name: Summary
   type: textarea
   default: ''
   config:
@@ -32,7 +32,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: summary
+  label: Summary
   description: text that appear on main page over image
 pages:
 - content/portfolio/test.md
