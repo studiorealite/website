@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: data/carousel
   label: Projects carousel data
-  create: all
+  create: documents
   match: "**/*"
   new_doc_ext: yaml
   templates:
