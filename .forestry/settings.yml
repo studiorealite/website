@@ -21,8 +21,8 @@ sections:
   - project
 upload_dir: static/img/portfolio
 public_path: img
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: img/portfolio
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_env:
