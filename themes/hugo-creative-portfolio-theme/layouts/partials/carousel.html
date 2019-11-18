@@ -1,3 +1,4 @@
+{{ $CurrentProject := .Params.project }}
 {{ if isset .Site.Params "carousel" }}
 {{ if .Site.Params.carousel.enable }}
 {{ if gt (len .Site.Data.carousel) 0 }}
@@ -5,9 +6,9 @@
         <div class="container">
             <div class="owl-carousel">
                 {{ range sort .Site.Data.carousel "weight" }}
-                    {{ if not (.project | eq .Params.project) }}
+                    {{ if (.project | eq $CurrentProject) }}
                     <div class="item">
-                        <img class="img-responsive" src="{{.image }}" alt="{{.project}}#.Params.project">
+                        <img class="img-responsive" src="{{.image }}" alt="{{.project}}#{{$CurrentProject}}">
                     </div>
                     {{ end }}
                 {{ end }}
