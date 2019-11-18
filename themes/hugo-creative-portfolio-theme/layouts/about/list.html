@@ -11,3 +11,6 @@
   </div>
 </div>
 {{ end }}
+{{ define "scripts" }}
+{{ if isset .Params "scripts" }}{{ range .Params.scripts }}<script src="{{ printf "js/%s" . | absURL }}"></script>{{ end }}{{ end }}
+{{end}}
