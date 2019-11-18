@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Studio réalité</title>
-    <link>http://127.0.0.1:8887/</link>
+    <link>https://studiorealite.github.io/website/</link>
     <description>Recent content on Studio réalité</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Nov 2016 14:11:01 +0000</lastBuildDate>
     
-	<atom:link href="http://127.0.0.1:8887/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://studiorealite.github.io/website/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rohmer&#39;s light</title>
-      <link>http://127.0.0.1:8887/portfolio/rohmerslight/</link>
+      <link>https://studiorealite.github.io/website/portfolio/rohmerslight/</link>
       <pubDate>Sat, 05 Nov 2016 14:11:01 +0000</pubDate>
       
-      <guid>http://127.0.0.1:8887/portfolio/rohmerslight/</guid>
+      <guid>https://studiorealite.github.io/website/portfolio/rohmerslight/</guid>
       <description>&lt;p&gt;Light painting by Jiab Prachakul&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Pas terne</title>
-      <link>http://127.0.0.1:8887/portfolio/pasterne/</link>
+      <link>https://studiorealite.github.io/website/portfolio/pasterne/</link>
       <pubDate>Sat, 05 Nov 2016 12:55:22 +0000</pubDate>
       
-      <guid>http://127.0.0.1:8887/portfolio/pasterne/</guid>
+      <guid>https://studiorealite.github.io/website/portfolio/pasterne/</guid>
       <description>&lt;p&gt;Abstract photography book &amp;ldquo;Pas terne&amp;rdquo; by Guillaume Bouzige&lt;/p&gt;</description>
     </item>
     
