@@ -4,6 +4,7 @@ date = 2016-11-05T12:55:22Z
 image = "img/cover.jpg"
 project = "pasterne"
 showonlyimage = true
+summary = "Photography book"
 title = "Pas terne"
 weight = "2"
 
