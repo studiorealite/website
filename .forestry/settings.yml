@@ -13,12 +13,6 @@ sections:
   templates:
   - carousel-data
 - type: directory
-  path: static/img/portfolio
-  label: Projects Images
-  create: all
-  match: "**/*"
-  new_doc_ext: jpg
-- type: directory
   path: content/portfolio
   label: Projects
   create: documents
