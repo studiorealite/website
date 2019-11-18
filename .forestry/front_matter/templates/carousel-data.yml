@@ -21,6 +21,6 @@ fields:
       path: 
   label: project
 pages:
-- data/carousel/pasterne_cover1.yaml
 - data/carousel/ROHMERSLIGHT_cover.yaml
+- data/carousel/pasterne_cover1.yaml
 - data/carousel/ROHMERSLIGHT_picture1.yaml
