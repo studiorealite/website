@@ -1,7 +1,4 @@
-{{ $CurrentProject := .Params.project }}
-{{ .Scratch.Set "CurrentProject" "portfolio/" }}
-{{ .Scratch.Add "CurrentProject" .Params.project }}
-{{ .Scratch.Add "CurrentProject" ".md" }}
+{{ $Images := .Params.carouselimages }}
 
 {{ $summary := .Params.summary }}
 {{ $url := .Site.BaseURL}}
@@ -11,9 +8,9 @@
 <section>
         <div class="container">
             <div class="owl-carousel">
-                {{ range .Params.carouselimages }}
+                {{ range $Images }}
                     <div class="item">
-                        <img class="img-responsive" src="{{$url}}/{{.Content}}" alt="{{$summary}} #{{$CurrentProject}}">
+                        <img class="img-responsive" src="{{$url}}/{{.}}" alt="{{$summary}}">
                     </div>
                 {{ end }}
 
