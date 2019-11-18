@@ -3,7 +3,7 @@ carousel = true
 date = 2016-11-05T14:11:01Z
 image = "img/rhomer_light_1.jpg"
 project = "ROHMERSLIGHT"
-showonlyimage = true
+showonlyimage = false
 title = "Rohmer's light"
 weight = "1"
 
