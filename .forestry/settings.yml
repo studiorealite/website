@@ -5,14 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: data/carousel
-  label: Projects carousel data
-  create: documents
-  match: "**/*"
-  new_doc_ext: yaml
-  templates:
-  - carousel-data
-- type: directory
   path: content/portfolio
   label: Projects
   create: documents
