@@ -3,46 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://studiorealite.github.io/website/portfolio/rohmerslight/</loc>
+    <loc>http://127.0.0.1:8887/portfolio/rohmerslight/</loc>
     <lastmod>2016-11-05T14:11:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://studiorealite.github.io/website/portfolio/pasterne/</loc>
+    <loc>http://127.0.0.1:8887/portfolio/pasterne/</loc>
     <lastmod>2016-11-05T12:55:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://studiorealite.github.io/website/portfolio/work3/</loc>
-    <lastmod>2016-11-05T14:14:32+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://studiorealite.github.io/website/contact/</loc>
+    <loc>http://127.0.0.1:8887/contact/</loc>
     <lastmod>2016-11-06T13:00:25+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://studiorealite.github.io/website/about/</loc>
+    <loc>http://127.0.0.1:8887/about/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://studiorealite.github.io/website/portfolio/</loc>
-    <lastmod>2016-11-05T14:14:32+00:00</lastmod>
+    <loc>http://127.0.0.1:8887/portfolio/</loc>
+    <lastmod>2016-11-05T14:11:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://studiorealite.github.io/website/</loc>
-    <lastmod>2016-11-05T14:14:32+00:00</lastmod>
+    <loc>http://127.0.0.1:8887/</loc>
+    <lastmod>2016-11-05T14:11:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://studiorealite.github.io/website/categories/</loc>
+    <loc>http://127.0.0.1:8887/categories/</loc>
   </url>
   
   <url>
-    <loc>https://studiorealite.github.io/website/tags/</loc>
+    <loc>http://127.0.0.1:8887/tags/</loc>
   </url>
   
 </urlset>

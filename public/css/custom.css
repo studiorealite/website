@@ -13,7 +13,8 @@
 }
 
 .cartlogo svg {
-    text-align: center;
+    display: block;
+    margin: auto;
 }
 
 a.peecho-btn-okay .peecho-print-button .peecho-btn .peecho-btn-tooltip {
