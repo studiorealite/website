@@ -1,6 +1,7 @@
 +++
 Description = "Light painting"
 carousel = true
+carouselimages = ["img/portfolio/rhomer_light_2.jpg", "img/portfolio/rhomer_light_1.jpg"]
 date = 2016-11-05T14:11:01Z
 image = "img/portfolio/rhomer_light_2.jpg"
 project = "rohmerslight"
