@@ -43,3 +43,10 @@ fields:
   config:
     required: true
   default: now
+- name: carousel-img
+  type: image_gallery
+  config: {}
+  label: carousel-img
+  showOnly:
+    field: carousel
+    value: true
