@@ -12,6 +12,10 @@
     z-index: 9;
 }
 
+.cartlogo svg {
+    text-align: center;
+}
+
 a.peecho-btn-okay .peecho-print-button .peecho-btn .peecho-btn-tooltip {
     border-color: black;
     cursor: pointer;
