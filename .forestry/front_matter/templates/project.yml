@@ -34,5 +34,3 @@ fields:
       format: markdown
   label: Description
   description: text that appear on main page over image
-pages:
-- content/portfolio/test.md
