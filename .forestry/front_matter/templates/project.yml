@@ -6,10 +6,15 @@ fields:
 - type: text
   name: title
   label: Title of the project
+  config:
+    required: true
 - type: text
   name: project
-  label: Project Unique Code
-  description: This is an internal identifier of the project. It shall be unique
+  label: Project ID
+  description: This is an internal identifier of the project. It shall be unique and
+    need to be register in product description.
+  config:
+    required: true
 - type: file
   name: image
   label: Main image for the project
