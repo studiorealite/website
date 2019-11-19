@@ -76,3 +76,5 @@ fields:
   showOnly:
     field: product
     value: true
+pages:
+- content/portfolio/black-robe.md
