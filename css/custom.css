@@ -21,21 +21,12 @@
 }
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
 
-#cartsvg {
-    width: 2vw;
-    height: auto;
-}
-
-.cartlogo {
-    position: absolute;
-    top: 1vh;
-    right: 1vw;
-    z-index: 9;
-}
-
-.cartlogo svg {
+.shoppingcart {
     display: block;
     margin: auto;
+    position: relative;
+    left: -1vw;
+    top: -1vh;
 }
 
 a.peecho-btn-okay .peecho-print-button .peecho-btn .peecho-btn-tooltip {
