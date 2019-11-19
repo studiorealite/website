@@ -32,10 +32,17 @@ fields:
     label: description
     config:
       required: true
-  - type: text
-    name: product_url
-    label: product_url
+  - name: product_url
+    type: select
+    default: []
     config:
       required: true
+      options: []
+      source:
+        type: pages
+        section: portfolio
+        file: 
+        path: 
+    label: product_url
 pages:
 - data/products.json
