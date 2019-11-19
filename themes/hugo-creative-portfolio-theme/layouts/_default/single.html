@@ -9,6 +9,26 @@
             {{ partial "carousel.html" . }}
          {{ end }}
          {{ .Content }}
+
+         {{ if eq .Params.product true }}
+         {{ $products := getJSON "/data/products.json" }}
+         <section class="container">
+           <div class="row">
+             {{ range $products }}
+                  <button
+                  class="snipcart-add-item buy-button"
+                  data-item-id="{{ .id }}"
+                  data-item-name="{{ .name }}"
+                  data-item-price="{{ .price }}"
+                  data-item-url="{{ .product_url }}"
+                  data-item-description="{{ .description }}">
+                  Add to cart
+                  </button>
+             {{ end }}
+           </div>
+         </section>
+         {{ end }}
+
          {{ template "_internal/disqus.html" . }}
       </div>
     </div>

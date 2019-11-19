@@ -7,6 +7,7 @@ date = 2016-11-05T12:55:22Z
 image = "img/portfolio/cover.jpg"
 project = "pasterne"
 showonlyimage = false
+product = true
 title = "Pas terne"
 weight = "2"
 
@@ -14,13 +15,3 @@ weight = "2"
 Photography book
 
 Abstract art photography book by Guillaume Bouzige
-
-<button
-class="snipcart-add-item buy-button"
-data-item-id="{{ .id }}"
-data-item-name="{{ .name }}"
-data-item-price="{{ .price }}"
-data-item-url="{{ .product_url }}"
-data-item-description="{{ .description }}">
-Add to cart
-</button>
