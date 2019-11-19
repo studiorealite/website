@@ -9,6 +9,8 @@ fields:
   - type: text
     name: id
     label: id
+    config:
+      required: true
   - type: text
     name: name
     label: name
@@ -24,5 +26,17 @@ fields:
   - type: text
     name: product_url
     label: product_url
+- name: idd
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: portfolio
+      file: 
+      path: 
+  label: idd
 pages:
 - data/products.json
