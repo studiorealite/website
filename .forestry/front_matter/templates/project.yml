@@ -42,7 +42,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Description
+  label: Short text description
   description: text that appear on main page over image
 - type: datetime
   name: date
@@ -50,3 +50,15 @@ fields:
   config:
     required: true
   default: now
+- name: product
+  type: boolean
+  label: product
+- name: long_text_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Long text description
