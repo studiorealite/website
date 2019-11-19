@@ -53,7 +53,7 @@ fields:
 - name: product
   type: boolean
   label: product
-- name: long_text_description
+- name: LongDescription
   type: textarea
   default: ''
   config:
