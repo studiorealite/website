@@ -67,14 +67,5 @@ fields:
     schema:
       format: markdown
   label: Long text description
-- name: product_details
-  type: include
-  config: {}
-  template: products
-  label: Product details
-  hidden: false
-  showOnly:
-    field: product
-    value: true
 pages:
 - content/portfolio/black-robe.md
