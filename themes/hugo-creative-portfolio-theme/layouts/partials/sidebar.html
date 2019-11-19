@@ -8,7 +8,12 @@
       {{ range .Site.Params.navlinks }}
         <li><a href="{{ absURL .url }}">{{ .name }}</a></li>
       {{ end }}
+      
     </ul>
+    <ul style="list-style-type: none;">
+      <li>{{ partial "header.html" . }}</li>
+    </ul>
+
     {{ partial "social_buttons_in_sidebar.html" . }}
 
     <div class="copyright">
