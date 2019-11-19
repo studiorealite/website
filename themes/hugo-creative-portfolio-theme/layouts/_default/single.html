@@ -1,3 +1,4 @@
+
 {{ define "main" }}
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   {{ partial "mobile_nav_toggle.html" . }}
@@ -8,14 +9,16 @@
          {{ if eq .Params.carousel true }}
             {{ partial "carousel.html" . }}
          {{ end }}
-         
+
          {{ .Params.LongDescription }}
+         {{ $project := .Params.project }}
 
          {{ if eq .Params.product true }}
          {{ $products := getJSON "/data/products.json" }}
          <section class="container">
            <div class="row">
              {{ range $products }}
+                  {{ if .id | eq $project }}
                   <button
                   class="snipcart-add-item buy-button"
                   data-item-id="{{ .id }}"
@@ -25,6 +28,7 @@
                   data-item-description="{{ .description }}">
                   Add to cart
                   </button>
+                  {{end}}
              {{ end }}
            </div>
          </section>
