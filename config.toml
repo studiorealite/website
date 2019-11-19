@@ -1,4 +1,4 @@
-baseurl = "http://newwebsite.xn--studioralit-hbbe.com"
+baseurl = "https://newwebsite.xn--studioralit-hbbe.com"
 title = "Studio réalité"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
