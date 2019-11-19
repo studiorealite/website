@@ -6,7 +6,7 @@
     <description>Recent content in Portfolios on Studio réalité</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2016 14:11:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 11:48:49 +0000</lastBuildDate>
     
 	<atom:link href="https://studiorealite.github.io/website/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,15 @@
       
       <guid>https://studiorealite.github.io/website/portfolio/pasterne/</guid>
       <description>Photography book</description>
+    </item>
+    
+    <item>
+      <title>Black robe</title>
+      <link>https://studiorealite.github.io/website/portfolio/black-robe/</link>
+      <pubDate>Tue, 19 Nov 2019 11:48:49 +0000</pubDate>
+      
+      <guid>https://studiorealite.github.io/website/portfolio/black-robe/</guid>
+      <description></description>
     </item>
     
   </channel>
