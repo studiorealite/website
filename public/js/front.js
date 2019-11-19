@@ -22,6 +22,8 @@ function carousels() {
         navSpeed: 4000,
         autoplaySpeed: 4000,
         dragEndSpeed: 2000,
+        dotsSpeed: 4000,
+        navSpeed: 4000,
         items: 1,
         responsive: true,
         dots: false,
