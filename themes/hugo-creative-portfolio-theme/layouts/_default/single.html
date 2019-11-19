@@ -8,7 +8,8 @@
          {{ if eq .Params.carousel true }}
             {{ partial "carousel.html" . }}
          {{ end }}
-         {{ .Content }}
+         
+         {{ .Params.LongDescription }}
 
          {{ if eq .Params.product true }}
          {{ $products := getJSON "/data/products.json" }}
