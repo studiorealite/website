@@ -24,8 +24,8 @@
                   data-item-id="{{ .id }}"
                   data-item-name="{{ .name }}"
                   data-item-price="{{ .price }}"
-                  data-item-url="{{ .product_url }}"
-                  data-item-image="{{ .image }}"
+                  data-item-url="{{ .product_url | absURL }}"
+                  data-item-image="{{ .image | absURL }}"
                   data-item-description="{{ .description }}">
                   Add to cart
                   </button>
