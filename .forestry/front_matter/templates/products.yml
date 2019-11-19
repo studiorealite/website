@@ -26,17 +26,17 @@ fields:
   - type: text
     name: product_url
     label: product_url
-- name: idd
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: portfolio
-      file: 
-      path: 
-  label: idd
+  - name: idd
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: portfolio
+        file: 
+        path: 
+    label: idd
 pages:
 - data/products.json
