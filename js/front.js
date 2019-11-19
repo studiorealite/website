@@ -18,16 +18,40 @@ function makeImagesResponsive() {
  *  =======================================*/
 function carousels() {
     $('.owl-carousel').owlCarousel({
-	navigation: false, // Show next and prev buttons
-	slideSpeed: 300,
-    paginationSpeed: 400,
-    dots: false,
-	autoPlay: true,
-	stopOnHover: true,
-	singleItem: true,
-	afterInit: ''
+        nav: true, // Show next and prev buttons
+        navSpeed: 4000,
+        autoplaySpeed: 4000,
+        dragEndSpeed: 2000,
+        items: 1,
+        responsive: true,
+        dots: false,
+        lazyLoad: true,
+        autoHeight:true,
+        autoplay: true,
+        autoplayHoverPause: true,
+        margin:500,
+        afterInit: ''
     });
 }
+
+$(document).ready(function() {
+
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        loop:true,
+        margin:10,
+    });
+
+    /*keyboard navigation*/
+    $(document.documentElement).keyup(function(event) {    
+        if (event.keyCode == 37) { /*left key*/
+            owl.trigger('prev.owl.carousel', [700]);
+        } else if (event.keyCode == 39) { /*right key*/
+            owl.trigger('next.owl.carousel', [700]);
+        }
+    });
+
+});
 /* =========================================
  *  masonry
  *  =======================================*/
