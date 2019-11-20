@@ -56,8 +56,8 @@ googleAnalytics = ""
 
   [params.social]
   facebook      = "https://www.facebook.com/Studio-Réalité-102207291198905"
-  email         = "hello@studioréalité.com"
-  instagram     = "full profile url in instagram"
+  email         = "hello@xn--studioralit-hbbe.com"
+  instagram     = "https://www.instagram.com/realitestudio/"
 
   [params.carousel]
   enable = true
