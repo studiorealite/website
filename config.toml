@@ -10,7 +10,7 @@ googleAnalytics = ""
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
-  style = "default"
+  style = "blue"
   description = "Studio réalité"
   copyright = "&copy;2019 Studio réalité"
   sidebarAbout = [
@@ -42,22 +42,22 @@ googleAnalytics = ""
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Home"
+  name = "Our objects"
   url = "portfolio/"
-  home = true
 
   [[params.navlinks]]
-  name = "About"
+  name = "Who we are"
   url = "about/"
+  home = true
 
   [[params.navlinks]]
   name = "Get in touch"
   url = "contact/"
 
   [params.social]
-  #facebook      = "https://www.facebook.com/Studio-Réalité-102207291198905"
-  #email         = "hello@studioréalité.com"
-  #instagram     = "full profile url in instagram"
+  facebook      = "https://www.facebook.com/Studio-Réalité-102207291198905"
+  email         = "hello@studioréalité.com"
+  instagram     = "full profile url in instagram"
 
   [params.carousel]
   enable = true
