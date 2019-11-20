@@ -4,6 +4,7 @@ LongDescription = "Long very long description of a beautiful dark robe"
 carousel = true
 carouselimages = ["img/portfolio/Joseph_Plateau.jpg", "img/portfolio/73051274_2422754461273255_7353681333052243968_n.jpg"]
 date = 2019-11-19T11:48:49Z
+draft = true
 image = "img/portfolio/Joseph_Plateau.jpg"
 product = true
 project = "blackrobe"
