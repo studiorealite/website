@@ -3,7 +3,7 @@
     $('#typewriteText').typewrite({
         continuous: false,
         actions: [
-            {type: 'Studio réalité is a space where we express our creativity aside from our main jobs. '},
+            {type: 'Maison réalité is a space where we express our creativity aside from our main jobs. '},
             {type: '<br>'},
             {delay: 1000},
             {type: 'We use this sapce to archi'},
@@ -44,7 +44,7 @@
             {type: '<br>'},
             {delay: 1500},
             {speed: 5},
-            {type: 'That is a product of Studio réalité.'},
+            {type: 'That is a product of Maison réalité.'},
             {select: {from: 804, to: 818}}
         ]
     });
