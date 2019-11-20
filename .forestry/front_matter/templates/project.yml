@@ -21,8 +21,9 @@ fields:
   description: This image will appear on main page for the project.
 - type: boolean
   name: showonlyimage
-  label: showonlyimage
+  label: Show only image
   description: if activated the project will appear on main page without text summary
+    but showing only the image.
 - type: boolean
   name: carousel
   label: Activate carousel
