@@ -36,3 +36,10 @@ a.peecho-btn-okay .peecho-print-button .peecho-btn .peecho-btn-tooltip {
     text-shadow: grey;
     background: white;
 }
+
+.snipcart-overwrite #snipcart-close:after {
+    content: "Return to réalité \279C";
+    color: #fff;
+    position: relative;
+    left: -33px;
+}

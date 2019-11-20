@@ -29,7 +29,7 @@ googleAnalytics = ""
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "bonjour@maisonréalité.com"
+  email = "bonjour@maisonrealite.com"
 
     # Optional Matomo analytics (formerly piwik)
       # [params.analytics.matomo]
@@ -56,7 +56,7 @@ googleAnalytics = ""
 
   [params.social]
   facebook      = "https://www.facebook.com/Studio-Réalité-102207291198905"
-  email         = "hello@xn--studioralit-hbbe.com"
+  email         = "bonjour@maisonrealite.com"
   instagram     = "https://www.instagram.com/realitestudio/"
 
   [params.carousel]
