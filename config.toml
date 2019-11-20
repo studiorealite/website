@@ -1,5 +1,5 @@
 baseurl = "https://newwebsite.xn--studioralit-hbbe.com"
-title = "Studio réalité"
+title = "Maison réalité"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -11,10 +11,10 @@ googleAnalytics = ""
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "blue"
-  description = "Studio réalité"
-  copyright = "&copy;2019 Studio réalité"
+  description = "Maison réalité"
+  copyright = "&copy;2019 Maison réalité"
   sidebarAbout = [
-    "Studio réalité is an art distributor",
+    "Maison réalité is an art distributor",
     "Originally from elsewhere, currently based in here."
   ]
   # Contact page
@@ -29,7 +29,7 @@ googleAnalytics = ""
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "hello@studioréalité.com"
+  email = "bonjour@maisonréalité.com"
 
     # Optional Matomo analytics (formerly piwik)
       # [params.analytics.matomo]
